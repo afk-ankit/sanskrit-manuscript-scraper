@@ -94,7 +94,7 @@ const sankritScraper = async (pageNum) => {
 
 // Main execution with concurrency control
 const main = async () => {
-  const startPage = 2;
+  const startPage = 1;
   const endPage = 501;
   const concurrency = 5; // Process this many pages simultaneously
 
